@@ -1,22 +1,60 @@
 aid: long-lake
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/long-lake.png
 name: Long Lake
-description: Long Lake is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Long Lake is an AI-enabled roll-up holding company founded in 2023 that
+  acquires and modernizes established American services businesses — spanning homeowners
+  association (HOA) management, construction and infrastructure services, and corporate
+  travel — by deploying its proprietary horizontal AI platform, Nexus. Backed by General
+  Catalyst, Alpha Wave, D1 Capital, Thrive, and Elad Gil, the company has raised over
+  $670 million and acquired more than 30 businesses, including a $6.3 billion agreement
+  to take American Express Global Business Travel private. Long Lake operates as a
+  private holding company (llmh.com) with no public API or developer surface; this
+  profile is maintained in the API Evangelist network as a company lead.
 url: https://raw.githubusercontent.com/api-evangelist/long-lake/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-website: https://llmh.com/
 x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Holding Company
+- Services
+- Roll-up
+- HOA Management
+- Corporate Travel
 apis: []
+common:
+- type: DomainSecurity
+  url: security/long-lake-domain-security.yml
+- type: Website
+  url: https://llmh.com/
+- type: Careers
+  url: https://jobs.ashbyhq.com/long-lake
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
