@@ -33,6 +33,9 @@ description: Long Lake is an AI-enabled roll-up holding company founded in 2023 
   private holding company (llmh.com) with no public API or developer surface; this
   profile is maintained in the API Evangelist network as a company lead.
 url: https://raw.githubusercontent.com/api-evangelist/long-lake/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Long Lake operates as a private holding company (llmh.com) with no public API or developer surface; this profile is maintained in the API Evangelist network as a company lead."
 x-type: company
 x-source: vc-portfolio
 x-website: https://llmh.com/
